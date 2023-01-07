@@ -1,4 +1,3 @@
-import animals.Animal;
 import animals.Dog;
 
 public class Show {
