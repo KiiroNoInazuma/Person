@@ -3,7 +3,7 @@ package animals;
 public abstract class Animal implements Ani {
     private boolean sleep;
     private final String name;
-    private String food;
+    private final String food;
     private final String location;
 
     Animal(String name, String food, String location) {
