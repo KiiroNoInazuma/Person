@@ -16,9 +16,9 @@ public abstract class Animal implements Ani {
     public String sleep(boolean bool) {
         if (bool) {
             sleep = true;
-            return "Животное " + getName() + " спит";
+            return "Животное " + getName() + " спит.";
         } else {
-            return "Животное " + getName() + " не спит";
+            return "Животное " + getName() + " не спит.";
         }
     }
 
@@ -36,7 +36,7 @@ public abstract class Animal implements Ani {
 
     @Override
     public String toString() {
-        return "Еда: "+food+"\nЛокация: "+location;
+        return "Имя: " + getName() + "\nЕда: " + food + "\nЛокация: " + location;
     }
 }
 
